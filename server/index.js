@@ -25,6 +25,7 @@ app.get('/', (req,res) => {
     res.send('Hello world')
 })
 app.use('/api', require('./routes/users'))
+app.use('/api', require('./routes/posts'))
 
 
 
